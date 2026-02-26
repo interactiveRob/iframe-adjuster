@@ -9,7 +9,6 @@ This plugin will ALWAYS be free and open-source. It can be used for commercial p
 <br><br>
 
 ## How to use:
-**NPM package coming soon**
 
 1. Add iFrame Adjuster to both the page and the iframe:  
 
