@@ -1,7 +1,14 @@
 {
   "name": "iframe-adjuster",
   "description": "Adjusts the height of iFrame elements when the contained content changes size",
-  "version": "0.0.0",
+  "keywords": [
+    "iframe",
+    "resizer",
+    "auto height",
+    "helper",
+    "fix"
+  ],
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
