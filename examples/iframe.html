@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>iFrame Adjuster</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="/assets/style.css" />
+        <script src="/dist/iframe-adjuster.min.js"></script>
+    </head>
+
+    <body style="background-color: blue; color: white;">
+        <h3>I am the iframe</h3>
+
+        <button onclick="randomHeight()">Change Height</button>
+
+        <div class="low-element">
+
+        </div>
+
+        <div style="margin-top: 40px;">
+            <form action="iframe.html">
+                <input type="text" name="test">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <script>    
+            let randomHeight = () => {
+                let element = document.querySelector('.low-element');
+                let newHeight = randomInteger(150, 1000);
+
+                element.style.height = `${newHeight}px`;
+            };
+
+            function randomInteger(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+        </script>
+    </body>
+</html>
