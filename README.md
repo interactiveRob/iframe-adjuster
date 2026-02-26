@@ -19,7 +19,9 @@ This plugin will ALWAYS be free and open-source. It can be used for commercial p
     `import 'iframe-adjuster';` <br><br>
     
     **If you're not using npm, you can simply load it from the CDN:**<br>
-    ```<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iframe-adjuster/dist/iframe-adjuster.min.js"></script>```
+    ```html 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iframe-adjuster/dist/iframe-adjuster.min.js"></script>
+    ```
     <br><br>
 
 2. Call `iFrameAdjuster()` on the page once, anytime after the Document is ready. 
