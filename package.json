@@ -1,7 +1,7 @@
 {
   "name": "iframe-adjuster",
   "version": "0.0.2",
-  "license": "MPL-2.0",
+  "license": "WTFPL",
   "description": "Adjusts the height of iFrame elements when the contained content changes size",
   "keywords": [
     "iframe",
