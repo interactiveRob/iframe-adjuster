@@ -23,8 +23,15 @@ This plugin will ALWAYS be free and open-source. It can be used for commercial p
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iframe-adjuster/dist/iframe-adjuster.min.js"></script>
     ```
     <br><br>
+2. Add `data-iframe-adjust` as an attribute on the target iFrames  
 
-2. Call `iFrameAdjuster()` on the page once, anytime after the Document is ready. 
+    ```html
+        <iframe data-iframe-adjust src="iframe.html" frameborder="0"></iframe>
+    ```
+    
+
+    <br><br>
+3. Call `iFrameAdjuster()` on the page once, anytime after the Document is ready. 
 
     ```javascript
         document.addEventListener("DOMContentLoaded", () => {
