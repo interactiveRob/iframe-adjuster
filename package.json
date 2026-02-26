@@ -1,6 +1,6 @@
 {
   "name": "iframe-adjuster",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "WTFPL",
   "description": "Adjusts the height of iFrame elements when the contained content changes size",
   "keywords": [
